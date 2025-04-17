@@ -1,0 +1,51 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# C extensions
+*.so
+
+# Distribution / packaging / Build artifacts
+dist/
+build/
+eggs/
+*.egg-info/
+.eggs/
+*.egg
+*.manifest
+# ArchiveChecker.spec # <-- Keep this commented out (i.e., DO commit .spec file) if you modify it for advanced builds.
+#                      # Uncomment the line below to IGNORE the .spec file if you *always* generate it fresh.
+# *.spec
+
+# PyInstaller specific temp/log files (often in build/, but good to be explicit)
+*.toc
+warn-*.txt
+xref-*.html
+
+# Python Virtual Environment
+# Ignore the virtual environment directory itself (e.g., venv, .venv, env)
+venv/
+.venv/
+env/
+ENV/
+# Ignore environment variable files
+*.env
+.env
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE / Editor directories (add others if you use them)
+.vscode/
+.idea/
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+
+# Configuration file (often user-specific, but can be committed if defaults are useful)
+# code_combiner_settings.json # <-- Uncomment this line if you DON'T want to commit your saved settings
+# code_combiner_settings.json # <-- Uncomment this line if you DON'T want to commit your saved settings
